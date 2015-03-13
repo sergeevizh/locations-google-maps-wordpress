@@ -1,0 +1,12 @@
+#map-canvas img {
+    max-width: none; /* fix bug with zoom buttons google maps http://stackoverflow.com/questions/8879544/google-maps-zoom-control */
+}
+#map-canvas{
+    height: 500px;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+}
+.cp-error{
+    border: 2px solid red !important;
+}
